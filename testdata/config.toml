@@ -1,0 +1,9 @@
+[servers]
+
+[servers.shiromane-dev]
+host = "10.2.3.1"
+port = "22"
+user = "root"
+optional = [
+  ["ami","ami-923d12f5"],
+]
